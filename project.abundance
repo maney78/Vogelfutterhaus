@@ -66,8 +66,8 @@
         },
         {
           "name": "xDist",
-          "ioValue": 110,
-          "currentEquation": "110"
+          "ioValue": 300,
+          "currentEquation": "300"
         },
         {
           "name": "yDist",
@@ -87,12 +87,25 @@
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 350
+          "ioValue": 350,
+          "currentEquation": "350"
         },
         {
           "name": "y length",
           "ioValue": 180,
           "currentEquation": "180"
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.5,
+      "y": 0.5,
+      "uniqueID": "id-22",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
         }
       ]
     }
@@ -102,6 +115,11 @@
       "ap2Name": "geometry",
       "ap1ID": "id-8",
       "ap2ID": "id-12"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-12",
+      "ap2ID": "id-22"
     }
   ],
   "unitsKey": "MM",
