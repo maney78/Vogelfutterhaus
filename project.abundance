@@ -1,13 +1,110 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-1",
-    "name": "Vogelfutterhaus",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-1",
+  "name": "Vogelfutterhaus",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-2",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.27771966527196656,
+      "y": 0.16788321167883213,
+      "uniqueID": "id-4",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 150,
+          "currentEquation": "150"
+        },
+        {
+          "name": "y length",
+          "ioValue": 200,
+          "currentEquation": "200"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.29602510460251047,
+      "y": 0.4793187347931874,
+      "uniqueID": "id-8",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 350,
+          "currentEquation": "350"
+        },
+        {
+          "name": "y length",
+          "ioValue": 200,
+          "currentEquation": "200"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.3960251046025105,
+      "y": 0.4793187347931874,
+      "uniqueID": "id-12",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 110,
+          "currentEquation": "110"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.301255230125523,
+      "y": 0.8150851581508517,
+      "uniqueID": "id-18",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 350
+        },
+        {
+          "name": "y length",
+          "ioValue": 180,
+          "currentEquation": "180"
+        }
+      ]
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-8",
+      "ap2ID": "id-12"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
